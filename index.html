@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naša Rijeka</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Naša Rijeka</h1>
+      <nav>
+        <ul>
+          <li><a href="#sport">Sport</a></li>
+          <li><a href="#hrana">Hrana</a></li>
+          <li><a href="#transport">Transport</a></li>
+          <li><a href="#zabava">Zabava</a></li>
+          <li><a href="#kultura">Kultura</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Dobrodošli u Rijeku</h2>
+      <p>Otkrijte resurse i mogućnosti koje nudi naš grad.</p>
+    </div>
+  </section>
+
+  <section id="sport" class="section">
+    <div class="container">
+      <h2>Sport</h2>
+      <p>Rijeka nudi raznovrsne sportske aktivnosti, od nogometa do planinarenja i jedrenja.
+        Grad pruža brojne mogućnosti i za rekreativce – od bazena, sportskih dvorana do trim-staza uz more. 
+        Bez obzira jeste li početnik ili aktivan sportaš, u Rijeci ćete sigurno pronaći idealno mjesto za kretanje i zdrav život.</p>
+      <a href="https://www.rijekasport.hr/hr/" target="_blank" class="sport-button">Posjeti Rijeka Sport</a>
+      <p>Osim ponude za rekreaciju, Rijeka ima i široki izbor profesionalnih sportskih timmova u raznim sportovima poput nogometa,
+        košarke i rukometa. Za one zainteresirane dolje su ponuđeni gumbovi na njihove rezultate i buduće utakmice. </p>
+        <a href="https://www.flashscore.com/team/rijeka/zXKuUR5J/" target="_blank" class="sport-button">HNK Rijeka</a>
+        <a href="https://www.flashscore.com/team/kvarner/4El1A5LO/" target="_blank" class="sport-button">KK Kvarner 2010</a>
+        <a href="https://www.flashscore.com/team/zamet/tjzxlneD/" target="_blank" class="sport-button">RK Zamet</a>
+    </div>
+  </section>
+
+  <section id="hrana" class="section alt">
+    <div class="container">
+      <h2>Hrana</h2>
+      <p>Riječka gastronomska scena spaja mediteranske okuse s primorskom tradicijom i modernim pristupima kuhanju. Uživajte u svježoj ribi, plodovima mora, domaćoj tjestenini, maslinovom ulju i vrhunskim vinima Kvarnera.</p>
+      <h3>Popularna jela: </h3>
+      <div class="jela">
+        <div class="jelo">
+          <h4>Škampi na buzaru</h4>
+          <img src="https://www.maslinar.com/wp-content/uploads/2019/08/skampi031-Copy.jpg" alt="Škampi na buzaru">
+          <p>Tradicionalno primorsko jelo od škampa, češnjaka, vina i maslinovog ulja.</p>
+        </div>
+        <div class="jelo">
+          <h4>Riblja plata</h4>
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/d2/58/37/riblja-plata-antika.jpg" alt="Riblja plata">
+          <p>Razne vrste svježe ribe s roštilja uz blitvu i krumpir.</p>
+        </div>
+        <div class="jelo">
+          <h4>Fuži s tartufima</h4>
+          <img src="https://recepti-api.index.hr/img/preview/large/recipe/fbef6d81-9442-4769-8a02-33c7634c2d53/fuiii.jpg" alt="Fuži s tartufima">
+          <p>Istarski specijalitet koji se često nudi u riječkim restoranima.</p>
+        </div>
+      </div>
+      <h3>Preporučeni restorani:</h3>
+      <div class="restorani">
+        <div class="restoran">
+          <h4><a href="https://www.restaurantpariskostrena.com.hr/" target="_blank" class="button">Restoran Paris</a></h4>
+          <p>Obiteljski restoran poznat po izvrsnoj usluzi i odličnom omjeru cijene i kvalitete. Gosti pohvaljuju pizze, gulaš i ugodnu atmosferu.</p>
+        </div>
+        <div class="restoran">
+          <h4><a href="https://konobabelveder21.wixsite.com/konobabelveder?fbclid=IwAR0HYPQeaQHzXlhvpY-NeTdagF693_C0lwOLcHh-Fjzq17cUwK0CtcSRwaw" target="_blank" class="button">Konoba Belveder</a></h4>
+          <p>Konoba Belveder poznata je po autentičnim dalmatinskim i primorskim jelima, te ugodnoj atmosferi koja upotpunjuje svaki obrok.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="transport" class="section">
+    <div class="container">
+      <h2>Transport</h2>
+      <p>Jako bitan faktor u transportu u gradu Rijeci je transport autobusima. puno ljudi bilo starijih, djece ili onih kojima se ne vozi se kreću njima. U slučaju da trebate prijevoz po Rijeci na neke kratke relacije to Vam je najbolja opcija.</p>
+      <h3>Autobusne stanice Rijeka:</h3>
+      <div id="stanice-container">
+        <table id="stanice">
+          <thead>
+            <tr>
+              <th>Naziv</th>
+              <th>Kratki Naziv</th>
+              <th>GPS X</th>
+              <th>GPS Y</th>
+            </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+        </table>
+      </div>
+      <div>
+      <h3>Vozni red autobusa:</h3>
+      <h4><a href="https://www.autotrolej.hr/linije/" target="_blank" class="button">Linije</a></h4>
+      </div>
+      <div class="taxi">
+        <h3>Taxi transport</h3>
+        <p>U slučaju da niste u mogućnosti otići na neku kraću relaciju autobusom ili jednostavne ne želite, Rijeka ima odličan izbor taxi služba uvijek spremne na vaš poziv.</p>
+          <ul>
+            <li><strong>Cammeo</strong> – + 385 51 313 313 – <a href="https://cammeo.hr/" target="_blank">cammeo.hr</a></li>
+            <li><strong>Taxi Rijeka</strong> – +385 95 887 5807 – <a href="http://taxi-rijeka.com.hr/" target="_blank">taxi-rijeka.com.hr</a></li>
+            <li><strong>Taxi Fiume</strong> – +385 51 515 515 – <a href="https://taxifiume.com/" target="_blank">taxifiume.com</a></li>
+            <li><strong>Uber</strong> – Dostupno putem aplikacije – <a href="https://www.uber.com/hr/hr/ride/" target="_blank">uber.com</a></li>
+          </ul>
+      </div>
+      <div class="brod">
+          <h3>Vodeni transport – Jadrolinija</h3>
+          <p>Rijeka je važna luka i povezana je brodskim linijama s otocima i obalom. Jadrolinija nudi redovite trajektne i katamaranske linije iz riječke luke.</p>
+            <ul>
+              <li><strong>Trajektne linije:</strong> Cres, Rab, Mali Lošinj, Pag</li>
+              <li><strong>Katamarani:</strong> Rabac, Novalja, Zadar</li>
+              <li><a href="https://www.jadrolinija.hr/" target="_blank" class="button">Službena stranica Jadrolinije</a></li>
+            </ul>
+      </div>
+    </div>
+  </section>
+
+  <script>
+      fetch('http://localhost:3000/autobusne-stanice')
+    .then(response => response.json())
+    .then(data => {
+      console.log(data[0]);
+      const tableBody = document.querySelector('#stanice tbody');
+      data.forEach(stanica => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${stanica.Naziv}</td>
+          <td>${stanica.Kratki}</td>
+          <td>${stanica.GpsX}</td>
+          <td>${stanica.GpsY}</td>
+        `;
+        tableBody.appendChild(row);
+      });
+    })
+    .catch(error => console.error('Greška pri učitavanju podataka:', error));
+  </script>
+
+  <section id="zabava" class="section alt">
+    <div class="container">
+    <h2>Zabava</h2>
+    <div id="klubovi">
+    <h3>Noćni život</h3>
+      <div class="klub">
+        <img src="https://www.crkva.club/wp/wp-content/uploads/2015/06/klub_crkva_2015-001.jpg" alt="crkva">
+        <p><strong><a href="https://www.crkva.club/#">Club Crkva</a></strong> – popularno odredište za elektronsku glazbu i DJ večeri.</p>
+      </div>
+
+      <div class="klub">
+        <img src="https://visitrijeka.hr/wp-content/uploads/2023/03/Rakhia-Bar-min.jpg" alt="rakhia">
+        <p><strong><a href="https://rakhiabar.com/">Rakhia Bar</a></strong> – idealan za isprobavanje domaćih rakija i opuštenu atmosferu.</p>
+      </div>
+
+      <div class="klub">
+        <img src="https://ludvigiludvig.hr/wp-content/uploads/2023/04/THuha-2022-02-09-Ludvig-Ludvig-River-Pub-HDR-20-Full-HD.jpg" alt="river">
+        <p><strong>River Pub</strong> – pub u centru grada s odličnim pivama i živom glazbom.</p>
+      </div>
+    </div>
+
+    <div id="festival">
+      <h3>Festivali i događanja</h3>
+        <div class="fest">
+          <p><strong>Riječki karneval</strong> - jedan od najvećih i najpoznatijih u Europi</p>
+          <img src="https://th.bing.com/th/id/R.8490824b0a04697c37673d444fb20386?rik=g9fV6jIV2BNwnA&riu=http%3a%2f%2fwww.putovnica.net%2ffiles%2ffoto%2frijecki-karneval-povorka.jpg&ehk=FBFPn8b7RwRrmqLZLM3CrLhJBBJu415abDPfNwDGGBo%3d&risl=&pid=ImgRaw&r=0" alt="karneval">
+        </div>
+
+        <div class="fest">
+          <p><strong>Ljeto na Gradini</strong> - koncerti, kazališne predstave i projekcije na Trsatskoj gradini.</p>
+          <img src="https://d3khoh4ekfpdcq.cloudfront.net/wp-content/uploads/2018/06/Ljeto-na-Gradini.jpg" alt="ljeto na gradini">         
+        </div>
+
+        <div class="fest">
+          <p><strong>Student Day Festival</strong> - besplatan festival glazbe i kreativnosti za mlade.</p>
+          <img src="https://www.srednja.hr/app/uploads/2019/05/student_day_rijeka.jpg" alt="sdf">
+        </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="kultura" class="section">
+    <div class="container">
+      <h2>Kultura</h2>
+      <p>Rijeka je grad bogate kulturne baštine i suvremenih umjetničkih izraza. Istražite kazališta, muzeje, događaje i umjetnike koji oblikuju kulturni identitet grada.</p>
+  
+      <div class="cards">
+        <div class="card">
+          <h3>Kazalište Ivana pl. Zajca</h3>
+          <p>Središnje mjesto kazališne umjetnosti u Rijeci, dom drame, opere i baleta.</p>
+        </div>
+        <div class="card">
+          <h3>Muzej moderne i suvremene umjetnosti</h3>
+          <p>Prostor za izložbe suvremene umjetnosti domaćih i stranih autora.</p>
+        </div>
+        <div class="card">
+          <h3>Pomorski i povijesni muzej</h3>
+          <p>Smješten u predivnoj Guvernerovoj palači – putovanje kroz povijest Rijeke i Jadrana.</p>
+        </div>
+      </div>
+  
+      <h3 class="događaji">Nadolazeći kulturni događaji</h3>
+      <p>Ukoliko Vas zanimaju budući događaji iz kulture, ali i iz ostalih kategorija kliknite na gumb ispod</p>
+      <h4><a href="https://visitrijeka.hr/dogadanja/" target="_blank" class="button">Događanja</a></h4>
+
+      <h3 class="događaji">Kulturna baština</h3>
+      <div class="trsat">
+        <h4>Trsatska gradina</h4>
+        <img src="https://nikas.hr/wp-content/uploads/2017/04/gradina_trsat.jpg" alt="Trsatska gradina">
+        <p>Trsatska gradina je srednjovjekovna utvrda smještena na brdu iznad Rijeke, s kojeg se pruža panoramski pogled na grad i Kvarnerski zaljev. Svojim povijesnim zidinama, kulturnim događanjima i kavarnom unutar zidina, gradina je jedno od najpoznatijih riječkih izletišta i simbola grada.</p>
+      </div>
+
+      <div class="trsat">
+        <h4>Svetište Majke Božje Trsatske</h4>
+        <img src="https://www.obnovauduhu.com/sites/default/files/svetiste-majke-Bozje-trsatske-02.jpg  " alt="Svetiste Majke Bozje Trsatske">
+        <p>Svetište Majke Božje Trsatske jedno je od najstarijih i najvažnijih marijanskih svetišta u Hrvatskoj. Smješteno je odmah uz Trsatsku gradinu, a poznato je kao mjesto molitve, mira i hodočašća. Prema predaji, ovdje su se neko vrijeme nalazili sveti Nazaretski domovi prije nego su preneseni u talijanski grad Loreto. Svetište posebno odiše duhovnošću, a njegovu ljepotu upotpunjuje raskošna crkva i franjevački samostan.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Naša Rijeka</p>
+    </div>
+  </footer>
+</body>
+</html>
